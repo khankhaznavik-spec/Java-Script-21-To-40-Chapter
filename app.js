@@ -249,24 +249,26 @@
 //     console.log(" Last days of the month");
 // }
 
-
+// 35 to 38
 // Function
-// let paragraph = document.getElementById("showPass")
+
+// Password Generator
+let paragraph = document.getElementById("showPass")
 
 
-// let passCharcter = "!@#$%^&*()_ncds585+95+KLDf234~@#E$ghvJTYUTY56498451"
+let passCharcter = "!@#$%^&*()_ncds585+95+KLDf234~@#E$ghvJTYUTY56498451"
 
-// function randompass (){
-//     let pass=""
-// for (let i = 0; i < 8; i++){
-//     let randoNum = Math.floor(Math.random() * passCharcter.length)
+function randompass (){
+    let pass=""
+for (let i = 0; i < 8; i++){
+    let randoNum = Math.floor(Math.random() * passCharcter.length)
 
 
-// pass += passCharcter[randoNum]
-// paragraph.innerHTML=pass
-// }
-// }
-// randompass()
+pass += passCharcter[randoNum]
+paragraph.innerHTML=pass
+}
+}
+randompass()
 
 // Q no 1
 // function date (){
@@ -335,3 +337,75 @@
 // let result = square(number);
 // console.log("Square is: " + result);
 
+
+
+// let dayOfWk =prompt("enter a day")
+//  if (dayOfWk ==="Saturday" || dayOfWk === "Sunday") {
+//  alert("Whoopee!");
+//  }
+//  else if (dayOfWk === "Friday") {
+//  alert("TGIF!");
+//  }
+//  else {
+//  alert("Shoot me now!");
+//  }
+
+//  switch(dayOfWk) {
+// case "Saturday" :
+// alert("Whoopee");
+// break;
+// case "Sunday" :
+// alert("Whoopee");
+// break;
+// case "Friday" :
+// alert("TGIF!");
+//  break;
+//  default :
+//  alert("Shoot me now!");
+//  }
+
+// 39 to 44 Chapters
+// Q no 1
+// function power(a, b) {
+//     let result = 1;
+
+//     for (let i = 0; i < b; i++) {
+//         result = result * a;
+//     }
+
+//     return result;
+// }
+// console.log(power(2, 3)); 
+
+// Q no 2
+// function isLeapYear(year) {
+//     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//         return "Leap Year";
+//     } else {
+//         return "Not a Leap Year";
+//     }
+// }
+
+// console.log(isLeapYear(2020)); 
+
+// Q no 3
+// function triangleArea(a, b, c) {
+//     let S = (a + b + c) / 2;
+//     let area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
+//     return area;
+// }
+
+// // Example
+// console.log(triangleArea(3, 4, 5)); 
+
+// Q no 4
+// function calculateS(a, b, c) {
+//     return (a + b + c) / 2;
+// }
+// function calculateArea(a, b, c) {
+//     let S = calculateS(a, b, c);
+//     return Math.sqrt(S * (S - a) * (S - b) * (S - c));
+// }
+// console.log(calculateArea(3, 4, 5)); 
+
+// Q no 5
