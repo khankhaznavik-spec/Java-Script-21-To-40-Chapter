@@ -253,22 +253,22 @@
 // Function
 
 // Password Generator
-let paragraph = document.getElementById("showPass")
+// let paragraph = document.getElementById("showPass")
 
 
-let passCharcter = "!@#$%^&*()_ncds585+95+KLDf234~@#E$ghvJTYUTY56498451"
+// let passCharcter = "!@#$%^&*()_ncds585+95+KLDf234~@#E$ghvJTYUTY56498451"
 
-function randompass (){
-    let pass=""
-for (let i = 0; i < 8; i++){
-    let randoNum = Math.floor(Math.random() * passCharcter.length)
+// function randompass (){
+//     let pass=""
+// for (let i = 0; i < 8; i++){
+//     let randoNum = Math.floor(Math.random() * passCharcter.length)
 
 
-pass += passCharcter[randoNum]
-paragraph.innerHTML=pass
-}
-}
-randompass()
+// pass += passCharcter[randoNum]
+// paragraph.innerHTML=pass
+// }
+// }
+// randompass()
 
 // Q no 1
 // function date (){
@@ -408,4 +408,97 @@ randompass()
 // }
 // console.log(calculateArea(3, 4, 5)); 
 
+// Chapter no 43 to 49
+// chap no 43
+
+// Q no 1
+// function Click(){
+//     alert("Welcome")
+// }
+
+// Q no 2
+// function image(){
+//   alert("Thanks for purchasing a phone from us")
+// }
+
+// Q no 3
+// function remove(){
+ 
+//     var btn = event.target;
+//     btn.parentNode.parentNode.remove();
+// }
+
+// Q no 4
+// Answer in HTML
+
 // Q no 5
+  // let counter = 0;
+
+  //   function increase() {
+  //     counter++;
+  //     document.getElementById("count").innerText = counter;
+  //   }
+
+  //   function decrease() {
+  //     counter--;
+  //     document.getElementById("count").innerText = counter;
+  //   }
+
+  // Chapter 49 to 52
+  // Q no 1
+//   let user= false
+// let userEmail="khancoder@gmail.com"
+// let userPass="123456789"
+// let correctEmail = "khancoder@gmail.com"
+// let correctPass = "123456789"
+
+// function login(email ,password){
+//     if( !email || !password){
+// return alert("All fields are required")
+//     }
+  
+
+//     if(userEmail == email && userPass == password){
+//         user =true
+//     }
+//     if(!user){
+//         return
+//     }
+//     if(user){
+//        alert("Login Sucessfully")
+//        window.location.href="./dashboard.html"
+//     }
+//     console.log(user)
+    
+// }
+
+
+
+// function logout(){
+// user=false
+// if(!user){
+//     console.log(user)
+//     window.location.href="./index.html"
+// }
+// }
+
+// Q no 2
+
+// let text  = "I’m excited to share that I’ve built and launched my personal portfolio website as part of my web development journey...From writing my very first line of code to creating complete, responsive web projects, this journey has been all about consistency, learning, and pushing my limits every day.\n Through my learning experience at Saylani Mass I.T Training (S.M.I.T), I’ve strengthened my skills in HTML, CSS, and JavaScript while working on real-world projects and participating in hackathons that challenged my creativity and problem-solving abilities.This portfolio reflects my growth, my dedication, and my passion for building modern, user-friendly web experiences.\nI’m actively looking for opportunities to grow, contribute, and collaborate on meaningful projects.\nLet’s connect and build something impactful together."
+
+// let expandtext = document.getElementById("expand")
+// let para = document.getElementById("para")
+
+// function expand(){
+// console.log(expandtext.innerText)
+
+//     if(expandtext.innerText == "see more"){
+//         para.innerHTML = text
+//         expandtext.innerText = "see less"
+        
+//     }else{
+//         para.innerText = text.slice(0,120)
+//         expandtext.innerText = "see more"
+//     }
+    
+// }
